@@ -1,7 +1,7 @@
 // import using require
 const Shape = require('./shape');
 
-module.exports = class Circle extends Shape {
+class Circle extends Shape {
                   super(radius){
                     this.radius= radius;
                   }
@@ -15,5 +15,5 @@ module.exports = class Circle extends Shape {
 
 // declare class
 
-
+module.exports = Circle ;
 // export class using module.exports
