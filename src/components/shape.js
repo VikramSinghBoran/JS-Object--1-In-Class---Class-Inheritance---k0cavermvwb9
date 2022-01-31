@@ -3,10 +3,11 @@ class Shape {
   constructor(color){
     this.color = color ;
   }
-  function drawShape(){
+  
+  drawShape(){
   }
   
-  function calculateArea(){
+  calculateArea(){
   }
   
 }
