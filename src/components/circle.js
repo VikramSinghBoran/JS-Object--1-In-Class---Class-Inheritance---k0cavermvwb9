@@ -1,5 +1,5 @@
 // import using require
-const Shape = require('./shape');
+const Shape = require('./shape.js');
 
 class Circle extends Shape {
                   super(radius){
